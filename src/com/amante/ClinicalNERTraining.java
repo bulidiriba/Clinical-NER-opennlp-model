@@ -26,7 +26,7 @@ public class ClinicalNERTraining {
         // reading training data
         InputStreamFactory in = null;
         try {
-            in = new MarkableFileInputStreamFactory(new File("dataset/i2b2sample.txt"));
+            in = new MarkableFileInputStreamFactory(new File("dataset/i2b2-dataset-opennlp-annotated.txt"));
         } catch (FileNotFoundException e2) {
             e2.printStackTrace();
         }
@@ -55,7 +55,7 @@ public class ClinicalNERTraining {
         
         // saving the model to "ner-custom-model.bin" file
         try {
-            File output = new File("model/cl-model-sample.bin");
+            File output = new File("model/clinical-ner-model.bin");
             FileOutputStream outputStream = new FileOutputStream(output);
             nameFinderModel.serialize(outputStream);
         } catch (FileNotFoundException e) {

@@ -1,5 +1,0 @@
-What is the worst symptom of <START:problem> allergies <END> ? <START:treatment> The histamine <END> then acts on <START:test> the eyes , nose , throat , lungs <END> , <START:problem> skin <END> , or <START:problem> gastrointestinal tract and causes the symptoms <END> of <START:problem> the allergic reaction <END> .
- <START:test> Future exposure <END> to that same allergen will trigger this antibody response again . 
-This means that every time you come into contact with that allergen , you 'll have <START:problem> an allergic reaction <END> .
- <START:problem> allergic reactions <END> can be mild , like <START:problem> a runny nose <END> , or they can be severe , like <START:problem> difficulty breathing <END> . 
-<START:problem> An asthma attack <END> , for example , is often an allergic reaction to something that is breathed into the lungs by a person who is susceptible .

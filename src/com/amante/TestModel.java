@@ -35,7 +35,7 @@ public class TestModel {
      * @throws IOException
      */
     public static void findName(String[] sentence) throws IOException {
-        InputStream name_model = new FileInputStream("model/cl-model-sample.bin");
+        InputStream name_model = new FileInputStream("model/clinical-ner-model.bin");
         // load the model from file
         TokenNameFinderModel model = new TokenNameFinderModel(name_model);
         name_model.close();
